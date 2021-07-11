@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#E4DFDF"
+    tools:context=".MainActivity">
+
+        <com.example.newskit.VerticalViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:paddingBottom="135dp"
+            android:paddingTop="90dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_next"
+            app:layout_anchor="@id/viewPager"
+            app:layout_anchorGravity="bottom|right"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="100dp"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:tint="#fff"
+            app:backgroundTint="#fff"
+            android:src="@drawable/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <me.ibrahimsn.lib.SmoothBottomBar
+            android:id="@+id/btm_bar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:backgroundColor="@android:color/holo_red_light"
+            app:layout_anchor="@id/viewPager"
+            app:layout_anchorGravity="bottom"
+            app:menu="@menu/bottom_bar"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

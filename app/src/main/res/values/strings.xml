@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">NewsKit</string>
+    <string name="like">Like</string>
+    <string name="text">
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+        LLikeLikeLikeLikeLikeLikeLikeLikeLikeLikeLike
+    </string>
+    <string name="to_detail">查看详情</string>
+    <string name="topNews">热榜</string>
+    <string name="news_cate">分类</string>
+    <string name="profile">我的</string>
+</resources>

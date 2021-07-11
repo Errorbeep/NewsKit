@@ -1,0 +1,135 @@
+<androidx.cardview.widget.CardView android:id="@+id/cardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cardCornerRadius="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="326dp"/>
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:orientation="vertical"
+        android:layout_marginTop="326dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center"
+                android:background="@drawable/news_item_radius"
+                android:layout_marginBottom="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/image1"
+                    android:src="@drawable/champion"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+                <TextView
+                    android:id="@+id/first_title"
+                    android:textColor="#000"
+                    android:layout_weight="12"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="5dp"
+                    android:maxLines="2"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/first_image"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="62dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:background="@drawable/news_item_radius"
+                android:layout_marginBottom="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/image2"
+                    android:src="@drawable/runner_up"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+                <TextView
+                    android:id="@+id/second_title"
+                    android:layout_weight="12"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="#000"
+                    android:maxLines="2"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/second_image"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="62dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="1dp"
+                android:gravity="center"
+                android:background="@drawable/news_item_radius"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/image3"
+                    android:src="@drawable/third"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+                <TextView
+                    android:id="@+id/third_title"
+                    android:textColor="#000"
+                    android:layout_weight="12"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="5dp"
+                    android:maxLines="2"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/third_image"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="62dp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/detail_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textSize="12sp"
+                android:theme="@style/Theme.MaterialComponents.DayNight.Bridge"
+                android:textColor="#000"
+                android:text="@string/to_detail"
+                />
+
+
+        </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

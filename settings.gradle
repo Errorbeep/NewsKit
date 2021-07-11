@@ -1,0 +1,2 @@
+rootProject.name = "NewsKit"
+include ':app'
